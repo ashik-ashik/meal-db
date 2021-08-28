@@ -70,6 +70,8 @@ const singleMeal = async meal => {
 }
 
 window.onload = () => {
+  setTimeout(endLoad, 2500);
+}
+const endLoad = () => {
   document.getElementById("loader").style.display="none";
 }
-
